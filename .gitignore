@@ -1,0 +1,12 @@
+.next
+node_modules
+.env
+.env*.local
+*.log
+Neo4j-*.txt
+dist
+coverage
+.agents/skills/*
+docs/team-todo.md
+.omx/
+backups/

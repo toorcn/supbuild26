@@ -1,0 +1,38 @@
+{
+  "name": "forebrief",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "check:data-source": "tsx scripts/check-data-source.ts",
+    "check:mvp": "tsx scripts/check-mvp.ts",
+    "check:neo4j": "tsx scripts/check-neo4j.ts",
+    "check:neo4j-demo": "tsx scripts/check-neo4j-demo.ts",
+    "seed:neo4j": "tsx scripts/seed-neo4j.ts",
+    "check:l15-qna": "tsx scripts/check-l15-qna.ts",
+    "check:extra-journeys": "tsx scripts/check-extra-journeys.ts",
+    "check:extra-journeys:neo4j": "tsx scripts/check-extra-journeys-neo4j.ts"
+  },
+  "dependencies": {
+    "lucide-react": "^0.468.0",
+    "neo4j-driver": "^5.27.0",
+    "next": "^16.2.9",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "@types/react": "^19.0.2",
+    "@types/react-dom": "^19.0.2",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9.17.0",
+    "eslint-config-next": "^16.2.9",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}

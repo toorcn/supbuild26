@@ -1,0 +1,50 @@
+- main [ref=e2]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - link "Forebrief" [ref=e6] [cursor=pointer]:
+          - /url: /
+          - img [ref=e8]
+          - heading "Forebrief" [level=1] [ref=e13]
+        - navigation [ref=e14]:
+          - link "Briefing" [ref=e15] [cursor=pointer]:
+            - /url: /briefing/meeting-2026-06-20-priya
+          - link "Live" [ref=e16] [cursor=pointer]:
+            - /url: /live/meeting-2026-06-20-priya
+      - paragraph [ref=e17]: Meeting memory, live capture, and follow-up review in one workspace.
+    - generic [ref=e19]:
+      - generic [ref=e20]:
+        - paragraph [ref=e21]: Voice briefing
+        - generic [ref=e22]: Ready
+      - generic [ref=e23]:
+        - generic [ref=e24]:
+          - generic [ref=e25]:
+            - img [ref=e27]
+            - generic [ref=e30]:
+              - paragraph [ref=e31]: Priya Iyer
+              - paragraph [ref=e32]: Principal · Lattice Ventures
+          - generic [ref=e33]:
+            - generic [ref=e34]:
+              - img [ref=e36]
+              - paragraph [ref=e40]: 20 Jun 2026, 10:30 am - Reconfirm diligence path and schedule the partner meeting
+            - generic [ref=e41]:
+              - img [ref=e43]
+              - paragraph [ref=e46]: Open follow-up - Send ROI deck + migration case study
+        - generic [ref=e47]:
+          - paragraph [ref=e48]: Built-in Q&A context
+          - generic [ref=e49]:
+            - generic [ref=e50]:
+              - img [ref=e51]
+              - paragraph [ref=e54]: What has made legacy wms integration risk is open hard to complete?
+            - generic [ref=e55]:
+              - img [ref=e56]
+              - paragraph [ref=e59]: What is the next concrete step for follow-up action?
+            - generic [ref=e60]:
+              - img [ref=e61]
+              - paragraph [ref=e64]: Legacy WMS integration risk is open
+      - generic [ref=e65]:
+        - button "Start briefing" [ref=e66] [cursor=pointer]:
+          - img [ref=e68]
+        - paragraph [ref=e71]: Ready
+        - paragraph [ref=e72]: Tap to start. I'll talk you through it — just ask follow-ups out loud.
+      - paragraph [ref=e75]: The opening brief will appear here as it is spoken.

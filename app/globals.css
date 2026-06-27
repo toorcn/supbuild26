@@ -1,0 +1,226 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  background: oklch(97% 0.006 248);
+  --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+  --ease-in-out: cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  background: oklch(97% 0.006 248);
+}
+
+body {
+  margin: 0;
+  background:
+    linear-gradient(180deg, oklch(99.2% 0.002 250) 0%, oklch(97% 0.006 248) 46%, oklch(93.8% 0.012 250) 100%);
+  color: oklch(16% 0.018 245);
+  font-family:
+    Geist,
+    Satoshi,
+    "Avenir Next",
+    "Segoe UI",
+    sans-serif;
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  text-rendering: geometricPrecision;
+}
+
+button,
+a,
+input,
+textarea {
+  font: inherit;
+}
+
+::selection {
+  background: oklch(82% 0.09 205);
+  color: oklch(16% 0.018 245);
+}
+
+.focus-ring {
+  outline: none;
+  transition:
+    border-color 160ms ease,
+    background-color 160ms ease,
+    color 160ms ease,
+    box-shadow 160ms ease,
+    transform 160ms var(--ease-out);
+}
+
+.focus-ring:focus-visible {
+  box-shadow:
+    0 0 0 2px oklch(99.2% 0.002 250),
+    0 0 0 4px oklch(62% 0.16 205 / 0.52);
+}
+
+.workspace-stripes {
+  background-image:
+    linear-gradient(90deg, oklch(16% 0.018 245 / 0.045) 1px, transparent 1px),
+    linear-gradient(180deg, oklch(16% 0.018 245 / 0.038) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
+
+.pressable:active {
+  transform: scale(0.98);
+}
+
+.surface-enter {
+  animation: surface-enter 280ms var(--ease-out) both;
+}
+
+.stagger-item {
+  animation: item-enter 320ms var(--ease-out) both;
+  animation-delay: calc(var(--index, 0) * 48ms);
+}
+
+.shimmer {
+  background-image: linear-gradient(
+    110deg,
+    transparent 0%,
+    transparent 35%,
+    oklch(100% 0 0 / 0.82) 48%,
+    transparent 62%,
+    transparent 100%
+  );
+  background-size: 220% 100%;
+  animation: shimmer 2.8s linear infinite;
+}
+
+@keyframes surface-enter {
+  from {
+    opacity: 0;
+    transform: translateY(10px) scale(0.985);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes item-enter {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes shimmer {
+  to {
+    background-position: -220% 0;
+  }
+}
+
+/* Voice stage */
+.voice-ring {
+  animation: voice-ring 2.6s var(--ease-out) infinite;
+}
+
+.voice-ring--delay {
+  animation-delay: 1.3s;
+}
+
+.voice-breathe {
+  animation: voice-breathe 3.4s var(--ease-in-out) infinite;
+}
+
+.voice-bar {
+  transform-origin: center bottom;
+  animation: voice-bar 900ms var(--ease-in-out) infinite;
+}
+
+@keyframes voice-ring {
+  0% {
+    transform: scale(0.85);
+    opacity: 0.5;
+  }
+  80% {
+    transform: scale(1.4);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1.4);
+    opacity: 0;
+  }
+}
+
+@keyframes voice-breathe {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.045);
+  }
+}
+
+@keyframes voice-bar {
+  0%,
+  100% {
+    transform: scaleY(0.3);
+  }
+  50% {
+    transform: scaleY(1);
+  }
+}
+
+.caption-enter {
+  animation: caption-enter 280ms var(--ease-out) both;
+}
+
+.caption-page {
+  animation: caption-page-enter 420ms var(--ease-out) both;
+}
+
+@keyframes caption-enter {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes caption-page-enter {
+  from {
+    opacity: 0;
+    transform: translateY(8px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .hover-lift:hover {
+    transform: translateY(-2px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 1ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 1ms !important;
+  }
+}

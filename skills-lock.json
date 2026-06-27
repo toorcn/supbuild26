@@ -1,0 +1,149 @@
+{
+  "version": 1,
+  "skills": {
+    "neo4j-agent-memory-skill": {
+      "source": "neo4j-contrib/neo4j-skills",
+      "sourceType": "github",
+      "skillPath": "neo4j-agent-memory-skill/SKILL.md",
+      "computedHash": "b76f9bbc59cdea51a673b70d7906bf483e2c011f1580df3f73e3343868080488"
+    },
+    "neo4j-aura-agent-skill": {
+      "source": "neo4j-contrib/neo4j-skills",
+      "sourceType": "github",
+      "skillPath": "neo4j-aura-agent-skill/SKILL.md",
+      "computedHash": "1ec103ed6a9931c35d8e3ccfaf491c3e0c5d5dceb1e20e31a4f539137e6652fe"
+    },
+    "neo4j-aura-graph-analytics-skill": {
+      "source": "neo4j-contrib/neo4j-skills",
+      "sourceType": "github",
+      "skillPath": "neo4j-aura-graph-analytics-skill/SKILL.md",
+      "computedHash": "cda51814c4e7de1c4ed22207aa47f13a5f734582b5d972f5c7d9dfcea9c9a45c"
+    },
+    "neo4j-aura-provisioning-skill": {
+      "source": "neo4j-contrib/neo4j-skills",
+      "sourceType": "github",
+      "skillPath": "neo4j-aura-provisioning-skill/SKILL.md",
+      "computedHash": "7410b7fde29c02bee520d3eba750866bfdba19605dbe23536b7fe0449063f3cc"
+    },
+    "neo4j-cypher-skill": {
+      "source": "neo4j-contrib/neo4j-skills",
+      "sourceType": "github",
+      "skillPath": "neo4j-cypher-skill/SKILL.md",
+      "computedHash": "5e023f63bd56a73f97df382b2f8cdbaffdeb54762517634e8a1a0dfe65532d38"
+    },
+    "neo4j-document-import-skill": {
+      "source": "neo4j-contrib/neo4j-skills",
+      "sourceType": "github",
+      "skillPath": "neo4j-document-import-skill/SKILL.md",
+      "computedHash": "9c40335809e08f85e2130f0427093cef9b994a3a398c2b212d8e82f327c664c1"
+    },
+    "neo4j-driver-dotnet-skill": {
+      "source": "neo4j-contrib/neo4j-skills",
+      "sourceType": "github",
+      "skillPath": "neo4j-driver-dotnet-skill/SKILL.md",
+      "computedHash": "cd002d6605ac2ff2e8ab8c5c17da547316441da97e0d423ec08c50eb65bb69b6"
+    },
+    "neo4j-driver-go-skill": {
+      "source": "neo4j-contrib/neo4j-skills",
+      "sourceType": "github",
+      "skillPath": "neo4j-driver-go-skill/SKILL.md",
+      "computedHash": "e300be216fe365fa6f923cb1b9a534a0c11a182f19aa0f2626c8ed4e945b6b04"
+    },
+    "neo4j-driver-java-skill": {
+      "source": "neo4j-contrib/neo4j-skills",
+      "sourceType": "github",
+      "skillPath": "neo4j-driver-java-skill/SKILL.md",
+      "computedHash": "7d25cdf7afdfc27ba1ff2a814440938388e428f795ecacfafd7603b5718277b6"
+    },
+    "neo4j-driver-python-skill": {
+      "source": "neo4j-contrib/neo4j-skills",
+      "sourceType": "github",
+      "skillPath": "neo4j-driver-python-skill/SKILL.md",
+      "computedHash": "3e08d228c12dd1393edf0cd9e43c2b343ca6caf64cb6aa806d46c8cddf4bf810"
+    },
+    "neo4j-gds-skill": {
+      "source": "neo4j-contrib/neo4j-skills",
+      "sourceType": "github",
+      "skillPath": "neo4j-gds-skill/SKILL.md",
+      "computedHash": "46ff2fdb4be970c599fb62d2aa2d637094eff28acf168eb0e3738d843a89fb5b"
+    },
+    "neo4j-genai-plugin-skill": {
+      "source": "neo4j-contrib/neo4j-skills",
+      "sourceType": "github",
+      "skillPath": "neo4j-genai-plugin-skill/SKILL.md",
+      "computedHash": "932389ef49025a99d26c6b7f745fa438440b5f45c1ce6e698ee043a808d40acd"
+    },
+    "neo4j-getting-started-skill": {
+      "source": "neo4j-contrib/neo4j-skills",
+      "sourceType": "github",
+      "skillPath": "neo4j-getting-started-skill/SKILL.md",
+      "computedHash": "f1bfcfe64018714d71c55fa640bb6c1b31223762b6dad1d6a99cb5113b5157f3"
+    },
+    "neo4j-graphql-skill": {
+      "source": "neo4j-contrib/neo4j-skills",
+      "sourceType": "github",
+      "skillPath": "neo4j-graphql-skill/SKILL.md",
+      "computedHash": "96bab55a18aea5a1575313b9d5dc25f47ed288d76975cb66a9dc3c927bf18a94"
+    },
+    "neo4j-graphrag-skill": {
+      "source": "neo4j-contrib/neo4j-skills",
+      "sourceType": "github",
+      "skillPath": "neo4j-graphrag-skill/SKILL.md",
+      "computedHash": "366fdd18a1838e8e489abb88e83358f6e2b8da36ca177e42614e4f53b5b6660d"
+    },
+    "neo4j-import-skill": {
+      "source": "neo4j-contrib/neo4j-skills",
+      "sourceType": "github",
+      "skillPath": "neo4j-import-skill/SKILL.md",
+      "computedHash": "036f3d3b55146141965ae644c59e98651dbe6d5a9bb648682da31e7d2b4507cf"
+    },
+    "neo4j-kafka-skill": {
+      "source": "neo4j-contrib/neo4j-skills",
+      "sourceType": "github",
+      "skillPath": "neo4j-kafka-skill/SKILL.md",
+      "computedHash": "4f5d6f3a22322b810ae9fe09d2ed9ebae16bae8328bec9a978685012940e77ee"
+    },
+    "neo4j-modeling-skill": {
+      "source": "neo4j-contrib/neo4j-skills",
+      "sourceType": "github",
+      "skillPath": "neo4j-modeling-skill/SKILL.md",
+      "computedHash": "9b6eb52efcc46908ff153d2f9d344db0c4cff7c0b5dd26dcd45c680120e6d608"
+    },
+    "neo4j-nvl-skill": {
+      "source": "neo4j-contrib/neo4j-skills",
+      "sourceType": "github",
+      "skillPath": "neo4j-nvl-skill/SKILL.md",
+      "computedHash": "faf9555c6fc6e487aed11049c821dc95db789aec5371fccc9c1fc8e0171bc841"
+    },
+    "neo4j-query-tuning-skill": {
+      "source": "neo4j-contrib/neo4j-skills",
+      "sourceType": "github",
+      "skillPath": "neo4j-query-tuning-skill/SKILL.md",
+      "computedHash": "203ba2a3dae704c3a22875c4d9eb86ef2943e04d923d5f17413a8a0f1ff6d198"
+    },
+    "neo4j-security-skill": {
+      "source": "neo4j-contrib/neo4j-skills",
+      "sourceType": "github",
+      "skillPath": "neo4j-security-skill/SKILL.md",
+      "computedHash": "f6db0fb14abe0324db0f1b81ab8a0099a7f43b771bd3618c07c8664f32c6c248"
+    },
+    "neo4j-snowflake-graph-analytics-skill": {
+      "source": "neo4j-contrib/neo4j-skills",
+      "sourceType": "github",
+      "skillPath": "neo4j-snowflake-graph-analytics-skill/SKILL.md",
+      "computedHash": "11d3347ca08bc675bb2aeae27151b5d53d86dfe3ce424d8d3cd9328f9cc7f46c"
+    },
+    "neo4j-spark-skill": {
+      "source": "neo4j-contrib/neo4j-skills",
+      "sourceType": "github",
+      "skillPath": "neo4j-spark-skill/SKILL.md",
+      "computedHash": "9a27e9c82b54f2300a4fecb3d795e1dabcce257f3668fd02fe91e0cf4b31894c"
+    },
+    "neo4j-vector-index-skill": {
+      "source": "neo4j-contrib/neo4j-skills",
+      "sourceType": "github",
+      "skillPath": "neo4j-vector-index-skill/SKILL.md",
+      "computedHash": "2cf424007326f4a154480d0f29b0ea151fba00b9cbe8001708a2ada876acad94"
+    }
+  }
+}

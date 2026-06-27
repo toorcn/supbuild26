@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Forebrief">
+  <defs>
+    <linearGradient id="fb-tile" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="oklch(42% 0.095 258)" />
+      <stop offset="1" stop-color="oklch(62% 0.16 205)" />
+    </linearGradient>
+    <linearGradient id="fb-trail" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.18" />
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0" />
+    </linearGradient>
+    <clipPath id="fb-clip">
+      <rect x="0" y="0" width="512" height="512" rx="120" ry="120" />
+    </clipPath>
+  </defs>
+
+  <!-- Tile -->
+  <rect x="0" y="0" width="512" height="512" rx="120" ry="120" fill="url(#fb-tile)" />
+
+  <g clip-path="url(#fb-clip)">
+    <!-- Forward motion trail behind the chevron -->
+    <rect x="120" y="250" width="150" height="12" rx="6" fill="url(#fb-trail)" />
+  </g>
+
+  <!-- Relationship node (origin point) -->
+  <circle cx="160" cy="256" r="34" fill="#ffffff" />
+  <circle cx="160" cy="256" r="13" fill="oklch(42% 0.095 258)" />
+
+  <!-- Forward chevron (the "fore" in Forebrief) -->
+  <path d="M284 168 L412 256 L284 344"
+        fill="none"
+        stroke="#ffffff"
+        stroke-width="44"
+        stroke-linecap="round"
+        stroke-linejoin="round" />
+
+  <!-- Connector linking node -> chevron -->
+  <path d="M194 256 L266 256"
+        fill="none"
+        stroke="#ffffff"
+        stroke-opacity="0.92"
+        stroke-width="22"
+        stroke-linecap="round" />
+</svg>
